@@ -105,7 +105,7 @@ function parseOrderChange(node) {
   var orderChange = convertOrderChange({
     taker_pays: parseChangeAmount(node, 'TakerPays'),
     taker_gets: parseChangeAmount(node, 'TakerGets'),
-    sell: (node.finalFields.Flags & lsfSell) !== 0,
+    sell: ((node.finalFields.Flags || node.newFields.Flags) & lsfSell) !== 0,
     sequence: node.finalFields.Sequence || node.newFields.Sequence,
     status: parseOrderStatus(node),
     quality: getQuality(node),
