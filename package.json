@@ -33,10 +33,10 @@
     "assert-diff": "*",
     "coveralls": "^2.10.0",
     "eslint": "2.7.0",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.1",
-    "istanbul": "^0.2.10",
+    "istanbul": "^0.4.5",
     "mocha": "*",
     "webpack-stream": "^6.1.0"
   },
