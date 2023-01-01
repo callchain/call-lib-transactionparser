@@ -38,7 +38,7 @@
     "gulp-uglify": "^1.5.1",
     "istanbul": "^0.2.10",
     "mocha": "*",
-    "webpack-stream": "^6.1.0"
+    "webpack-stream": "^7.0.0"
   },
   "keywords": [],
   "license": "ISC",
